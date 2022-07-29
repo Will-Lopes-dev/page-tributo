@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #363636;
+    width: 100%;
+    height: auto;
+}
+
+#header-title {
+  margin-top: 50px;
+}
+
+#header-title h3{
+    margin-top: 15px;
+    margin-left: 50px;
+    color: #C0C0C0;
+}
+
+img {
+    margin: 15px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#geral section {
+    display: flex;
+   justify-content: center;
+   margin: 20px;
+}
+
+#geral .section-ul {
+    display: flex;
+    justify-content: start;
+}
+
+.container {
+    background-color: #A9A9A9;
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    min-width: 320px;
+    color: #000000;
+}
+
+.container article  {
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+    margin: 15px;
+    line-height: 2em;
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+#geral section figcaption {
+   text-align: center;
+}
+
+.desc-img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container h2 {
+    margin-top: 25px;
+}
+
+.container ul {
+    margin: 30px;
+}
+
+.container ul li {
+    font-family: arial;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #250f0f;
+}
+
+.container a:hover {
+    color: #ff0000;
+    transition: 1s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    padding: 15px;
+}
+
+footer a {
+    margin: 0 20px 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: arial;
+}
+
+footer a:hover {
+    color: #ff0000;
+    transition: 1s;
+}
+
+@media (max-width: 510px) {
+    img {
+        width: 200px;
+    }
+
+    .desc-img {
+        font-size: 13px;
+    }
+    
+    figcaption {
+        font-size: 13px;
+    }
+}
